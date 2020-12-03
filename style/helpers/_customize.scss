@@ -1,0 +1,149 @@
+.logo-image {
+    width: 112px;
+    height: 48px;
+}
+
+.nav-link {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: bold;
+}
+
+.bg-cover {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.content-image {
+    height: 960px;
+    position: relative;
+
+    .controller {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+
+        .controller-title {
+            font-size: 48px;
+            line-height: 60px;
+        }
+    }
+
+
+}
+
+
+.readmore-tag {
+    position: absolute;
+    right: 0;
+    top: 450px;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.btn-readmore {
+    position: absolute;
+    left: 0;
+    top: 450px;
+}
+
+.one-gear {
+    position: relative;
+
+    .paragraph {
+        height: 72px;
+    }
+
+
+}
+
+.performance { 
+    position: relative;
+
+    .readmore-tag {
+        position: absolute;
+        top: 450px;
+        right: 0;
+    }
+}
+
+
+
+.title {
+    font-size: 72px;
+    line-height: 91px;
+
+    &.title-lg {
+        font-size: 96px;
+        line-height: 124px;
+    }
+
+    &.title-sm {
+        font-size: 48px;
+        line-height: 64px;
+    }
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    width: 570px;
+
+    &.paragraph-lg {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+
+.premium-image {
+    background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week7/img4.jpg');
+    background-attachment: fixed;
+    height: 640px;
+    position: relative;
+
+    .premium-saying {
+        position: absolute;
+        top: 424px;
+    }
+
+    .paragraph {
+        width: auto;
+        font-weight: bold;
+    }
+    
+}
+
+.card-img-top {
+    height: 600px;
+}
+
+footer {
+    .nav-link {
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+.copyright {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+[data-aos="translateX-right"] {
+    transform: translateX(0px);
+
+    &.aos-animate {
+        transform: translateX(-80px);
+    }
+}
+
+[data-aos="translateX-left"] {
+    transform: translateX(0px);
+
+    &.aos-animate {
+        transform: translateX(80px);
+    }
+}
